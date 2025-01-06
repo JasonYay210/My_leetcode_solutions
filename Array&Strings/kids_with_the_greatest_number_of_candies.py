@@ -2,7 +2,6 @@ from typing import List
 
 
 class Solution:
-
     # Question: 1431
 
     # 0ms Beats 100%
