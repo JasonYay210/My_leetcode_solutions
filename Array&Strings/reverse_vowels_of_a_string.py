@@ -1,4 +1,10 @@
 class Solution:
+    # Question: 345
+
+    # 9ms Beats 71.87%
+    # Time Complexity: O(n)
+    # Space Complexity: O(n)
+
     def reverseVowels(self, s: str) -> str:
         left = 0
         right = len(s) -1
