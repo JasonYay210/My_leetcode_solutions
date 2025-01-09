@@ -1,11 +1,10 @@
 class Solution:
     def findClosestNumber(self, nums: List[int]) -> int:
-        # Question: 605
+        # Question: 2239
 
-        # 14ms Beats 17.80%
+        # 3ms Beats 85.32%
         # Time Complexity: O(n)
         # Space Complexity: O(1)
-
 
         n = len(nums) 
         result = float("inf")
