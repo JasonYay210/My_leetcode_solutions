@@ -1,9 +1,9 @@
 class Solution:
-    # Question: 151
+    # Question: 13
 
     # 7ms Beats 43.30%
     # Time Complexity: O(n)
-    # Space Complexity: O(n)
+    # Space Complexity: O(1)
     def romanToInt(self, s: str) -> int:
         my_dict = {
             'I':1,
@@ -14,6 +14,7 @@ class Solution:
             "D":500,
             "M":1000
         }
+
         result = 0
         i = 0
         while i < len(s):
