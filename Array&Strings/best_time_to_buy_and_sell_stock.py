@@ -2,7 +2,12 @@ from typing import List
 
 
 class Solution:
-    
+    # Question: 121
+
+    # 24ms Beats 92.1%
+    # Time Complexity: O(n)
+    # Space Complexity: O(1)
+
     def maxProfit(self, prices: List[int]) -> int:
         min_price = float('inf')
         ans = 0
