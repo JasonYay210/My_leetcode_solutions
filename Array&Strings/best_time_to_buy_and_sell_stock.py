@@ -4,7 +4,7 @@ from typing import List
 class Solution:
     # Question: 121
 
-    # 24ms Beats 92.1%
+    # 24ms Beats 92.18%
     # Time Complexity: O(n)
     # Space Complexity: O(1)
 
