@@ -16,5 +16,5 @@ class Solution:
                 min_price = price
             profit = price - min_price
             if profit > ans:
-                ans = profi
+                ans = profit
         return ans
