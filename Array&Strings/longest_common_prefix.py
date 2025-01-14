@@ -1,4 +1,12 @@
+from typing import List
+
+
 class Solution:
+    # Question: 14
+
+    # 0ms Beats 100%
+    # Time Complexity: O(n)
+    # Space Complexity: O(n)
     def longestCommonPrefix(self, strs: List[str]) -> str:
         min_length = float('inf')
         for s in strs:
