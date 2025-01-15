@@ -4,6 +4,7 @@ class Solution(object):
     # 0ms Beats 100%
     # Time Complexity: O(n)
     # Space Complexity: O(1)
+    
     def removeDuplicates(self, nums):
         j = 0
         for i in range(1,len(nums)):
