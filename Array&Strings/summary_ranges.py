@@ -6,7 +6,7 @@ class Solution:
 
     # 0ms Beats 100%
     # Time Complexity: O(n)
-    # Space Complexity: O(n)
+    # Space Complexity: O(n
     def summaryRanges(self, nums: List[int]) -> List[str]:
 
         ans = []
