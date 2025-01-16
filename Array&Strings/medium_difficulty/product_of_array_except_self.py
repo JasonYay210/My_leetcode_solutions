@@ -4,9 +4,9 @@ from typing import List
 class Solution:
     # Question: 238
 
-    # 24ms Beats 92.18%
+    # 27ms Beats 49.44%
     # Time Complexity: O(n)
-    # Space Complexity: O(1)
+    # Space Complexity: O(n)
 
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         l_multi = 1
