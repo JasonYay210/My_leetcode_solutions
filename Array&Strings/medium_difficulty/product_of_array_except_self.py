@@ -2,6 +2,12 @@ from typing import List
 
 
 class Solution:
+    # Question: 238
+
+    # 24ms Beats 92.18%
+    # Time Complexity: O(n)
+    # Space Complexity: O(1)
+
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         l_multi = 1
         r_multi = 1
