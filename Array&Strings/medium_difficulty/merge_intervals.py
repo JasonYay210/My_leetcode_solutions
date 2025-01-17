@@ -5,8 +5,9 @@ class Solution:
     # Question: 238
 
     # 3ms Beats 93.48%
-    # Time Complexity: O(n)
+    # Time Complexity: O(nlogn)
     # Space Complexity: O(n)
+
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals.sort(key= lambda x: x[0])
         merged = []
