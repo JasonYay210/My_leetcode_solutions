@@ -4,7 +4,7 @@ from typing import List
 class Solution:
     # Question: 238
 
-    # 27ms Beats 49.44%
+    # 3ms Beats 93.48%
     # Time Complexity: O(n)
     # Space Complexity: O(n)
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
