@@ -8,4 +8,4 @@ class Solution:
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
         set_jewels = set(jewels)
 
-        return sum(s in set_jewels for s in stones
+        return sum(s in set_jewels for s in stones)
