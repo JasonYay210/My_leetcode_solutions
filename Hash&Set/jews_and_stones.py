@@ -2,7 +2,7 @@ class Solution:
     # Question: 121
 
     # 24ms Beats 92.18%
-    # Time Complexity: O(n)
+    # Time Complexity: O(1)
     # Space Complexity: O(1)
 
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
