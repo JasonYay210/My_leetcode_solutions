@@ -2,9 +2,9 @@ from typing import List
 
 
 class Solution:
-    # Question: 771
+    # Question: 217
 
-    # 0ms Beats 100%
+    # 11ms Beats 53.73%
     # Time Complexity: O(n + m) m being set_jewels
     # Space Complexity: O(m)
     def containsDuplicate(self, nums: List[int]) -> bool:
