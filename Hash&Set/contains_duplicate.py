@@ -5,8 +5,9 @@ class Solution:
     # Question: 217
 
     # 11ms Beats 53.73%
-    # Time Complexity: O(n + m) m being set_jewels
-    # Space Complexity: O(m)
+    # Time Complexity: O(n) 
+    # Space Complexity: O(m) m is set_nums
+    
     def containsDuplicate(self, nums: List[int]) -> bool:
         set_nums = set()
         for num in nums:
