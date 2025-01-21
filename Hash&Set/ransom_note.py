@@ -2,6 +2,12 @@ from collections import defaultdict
 
 
 class Solution:
+    # Question: 383
+
+    # 23ms Beats 50%
+    # Time Complexity: O(n + m) m being the defaultdicts
+    # Space Complexity: O(n + m) m being the defaultdicts
+
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         C_ranson = defaultdict(int)
 
