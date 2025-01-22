@@ -6,7 +6,8 @@ class Solution:
 
     # 9ms Beats 78.54%
     # Time Complexity: O(n + m) m being the defaultdicts
-    # Space Complexity: O(n + m) m being the defaultdicts
+    # Space Complexity: O(1) limited to alphabet
+
     def isAnagram(self, s: str, t: str) -> bool:
         c_s = defaultdict(int)
         
