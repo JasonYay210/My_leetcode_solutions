@@ -2,6 +2,11 @@ from collections import defaultdict
 
 
 class Solution:
+    # Question: 242
+
+    # 9ms Beats 78.54%
+    # Time Complexity: O(n + m) m being the defaultdicts
+    # Space Complexity: O(n + m) m being the defaultdicts
     def isAnagram(self, s: str, t: str) -> bool:
         c_s = defaultdict(int)
         
