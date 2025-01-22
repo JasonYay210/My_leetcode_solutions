@@ -1,3 +1,6 @@
+from collections import defaultdict
+
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         c_s = defaultdict(int)
