@@ -1,3 +1,6 @@
+from collections import defaultdict
+
+
 class Solution:
     def maxNumberOfBalloons(self, text: str) -> int:
         d_text = defaultdict(int)
