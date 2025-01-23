@@ -2,6 +2,11 @@ from collections import defaultdict
 
 
 class Solution:
+    # Question: 
+
+    # 0ms Beats 100%
+    # Time Complexity: O(n + m) m being set_jewels
+    # Space Complexity: O(m)
     def maxNumberOfBalloons(self, text: str) -> int:
         d_text = defaultdict(int)
         ballon = 'balon'
