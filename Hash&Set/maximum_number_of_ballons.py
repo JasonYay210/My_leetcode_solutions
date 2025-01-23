@@ -1,0 +1,22 @@
+class Solution:
+    def maxNumberOfBalloons(self, text: str) -> int:
+        d_text = defaultdict(int)
+        ballon = 'balon'
+
+        for i in text:
+            if i in "balloon":
+                d_text[i] +=1
+
+        count = float('inf')
+        d_text['l'] = d_text['l'] // 2
+        d_text['o'] = d_text['o'] // 2
+
+
+        for i in ballon:
+            if i not in d_text:
+                return 0
+    
+        for i in d_text.keys():
+            if d_text[i] < count:
+                count = d_text[i]
+        return count
