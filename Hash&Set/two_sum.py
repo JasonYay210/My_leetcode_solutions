@@ -4,7 +4,7 @@ from typing import List
 class Solution:
     # Question: 1
 
-    # 23ms Beats 50%
+    # 0ms Beats 100%
     # Time Complexity: O(n) m being the defaultdicts
     # Space Complexity: O(n)
     
