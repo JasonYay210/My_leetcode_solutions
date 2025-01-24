@@ -5,8 +5,8 @@ class Solution:
     # Question: 1
 
     # 23ms Beats 50%
-    # Time Complexity: O(n + m) m being the defaultdicts
-    # Space Complexity: O(n + m) m being the defaultdicts
+    # Time Complexity: O(n) m being the defaultdicts
+    # Space Complexity: O(m) m being the defaultdicts
     
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         mydict = {}
