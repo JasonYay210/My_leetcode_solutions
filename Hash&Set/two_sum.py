@@ -6,7 +6,7 @@ class Solution:
 
     # 23ms Beats 50%
     # Time Complexity: O(n) m being the defaultdicts
-    # Space Complexity: O()
+    # Space Complexity: O(n)
     
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         mydict = {}
