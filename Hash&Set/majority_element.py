@@ -6,7 +6,7 @@ class Solution:
 
     # 0ms Beats 100%
     # Time Complexity: O(n)
-    # Space Complexity: O(m)
+    # Space Complexity: O(n)
 
     def majorityElement(self, nums: List[int]) -> int:
         counter = Counter(nums)
