@@ -2,7 +2,11 @@ from typing import Counter, List
 
 
 class Solution:
+    # Question: 771
 
+    # 0ms Beats 100%
+    # Time Complexity: O(n + m) m being set_jewels
+    # Space Complexity: O(m)
 
     def majorityElement(self, nums: List[int]) -> int:
         counter = Counter(nums)
