@@ -5,7 +5,7 @@ class Solution:
     # Question: 169
 
     # 0ms Beats 100%
-    # Time Complexity: O(n + m) m being set_jewels
+    # Time Complexity: O(n)
     # Space Complexity: O(m)
 
     def majorityElement(self, nums: List[int]) -> int:
