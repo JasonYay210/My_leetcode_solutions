@@ -1,3 +1,6 @@
+from typing import Counter
+
+
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         result = 0
