@@ -3,7 +3,7 @@ from typing import List
 
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        
+
         #row
         for i in range(9):
             row_set = set()
@@ -34,5 +34,5 @@ class Solution:
                             if item in box_set:
                                 return False
                             box_set.add(item)
-
+                            
         return True
