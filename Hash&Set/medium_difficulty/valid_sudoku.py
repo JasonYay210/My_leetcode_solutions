@@ -2,6 +2,12 @@ from typing import List
 
 
 class Solution:
+        # Question: 217
+
+    # 11ms Beats 53.73%
+    # Time Complexity: O(n) 
+    # Space Complexity: O(m) m is set_nums
+    
     def isValidSudoku(self, board: List[List[str]]) -> bool:
 
         #row
@@ -34,5 +40,5 @@ class Solution:
                             if item in box_set:
                                 return False
                             box_set.add(item)
-                            
+
         return True
