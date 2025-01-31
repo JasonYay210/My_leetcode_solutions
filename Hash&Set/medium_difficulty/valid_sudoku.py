@@ -5,9 +5,11 @@ class Solution:
     # Question: 36
 
     # 7ms Beats 39.90%
-    # Time Complexity: O(n) 
-    # Space Complexity: O(m) m is set_nums
+    # Time Complexity: O(1)  
+    # Space Complexity: O(1)
 
+    # Only using O(81) becuase the board is 9X9
+    
     def isValidSudoku(self, board: List[List[str]]) -> bool:
 
         #row
