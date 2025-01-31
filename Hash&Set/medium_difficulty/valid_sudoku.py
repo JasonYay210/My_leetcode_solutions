@@ -9,7 +9,7 @@ class Solution:
     # Space Complexity: O(1)
 
     # Only using O(81) becuase the board is 9X9
-    
+
     def isValidSudoku(self, board: List[List[str]]) -> bool:
 
         #row
@@ -31,6 +31,7 @@ class Solution:
                     return False
                 elif item != '.':
                     col_set.add(item)
+                    
         # box
         for box_row in range(0, 9, 3):
             for box_col in range(0, 9, 3):
