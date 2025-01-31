@@ -4,7 +4,7 @@ from typing import List
 class Solution:
     # Question: 36
 
-    # 11ms Beats 53.73%
+    # 7ms Beats 53.73%
     # Time Complexity: O(n) 
     # Space Complexity: O(m) m is set_nums
 
