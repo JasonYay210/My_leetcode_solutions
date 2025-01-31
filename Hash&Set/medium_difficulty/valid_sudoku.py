@@ -3,8 +3,8 @@ from typing import List
 
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
+        
         #row
-
         for i in range(9):
             row_set = set()
             for j in range(9):
