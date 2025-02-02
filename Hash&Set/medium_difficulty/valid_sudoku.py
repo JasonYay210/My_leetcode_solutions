@@ -32,7 +32,7 @@ class Solution:
                 elif item != '.':
                     col_set.add(item)
                     
-        # bo
+        # box
         for box_row in range(0, 9, 3):
             for box_col in range(0, 9, 3):
                 box_set = set()
