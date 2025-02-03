@@ -13,6 +13,7 @@ class Solution:
         arr2 = []
         nums1 = set(nums1)
         nums2 = set(nums2)
+        
         for i in nums1:
             if i not in nums2:
                 arr1.append(i)
