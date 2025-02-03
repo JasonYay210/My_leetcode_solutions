@@ -5,8 +5,9 @@ class Solution:
     # Question: 2217
 
     # 3ms Beats 94.84%
-    # Time Complexity: O(n + m) m being set_jewels
-    # Space Complexity: O(m)
+    # Time Complexity: O(n + m) m is nums2
+    # Space Complexity: O(n + m) m is arr2
+
     def findDifference(self, nums1: List[int], nums2: List[int]) -> List[List[int]]:
         arr1 = []
         arr2 = []
