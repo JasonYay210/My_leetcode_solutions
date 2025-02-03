@@ -2,6 +2,11 @@ from typing import List
 
 
 class Solution:
+    # Question: 771
+
+    # 0ms Beats 100%
+    # Time Complexity: O(n + m) m being set_jewels
+    # Space Complexity: O(m)
     def findDifference(self, nums1: List[int], nums2: List[int]) -> List[List[int]]:
         arr1 = []
         arr2 = []
