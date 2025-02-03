@@ -4,7 +4,7 @@ from typing import List
 class Solution:
     # Question: 2217
 
-    # 3ms Beats 940%
+    # 3ms Beats 94.84%
     # Time Complexity: O(n + m) m being set_jewels
     # Space Complexity: O(m)
     def findDifference(self, nums1: List[int], nums2: List[int]) -> List[List[int]]:
