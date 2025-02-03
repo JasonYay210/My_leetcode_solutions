@@ -2,7 +2,7 @@ from typing import List
 
 
 class Solution:
-    # Question: 771
+    # Question: 2
 
     # 0ms Beats 100%
     # Time Complexity: O(n + m) m being set_jewels
