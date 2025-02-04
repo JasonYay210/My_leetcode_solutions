@@ -13,4 +13,4 @@ class Solution:
         
         if len(set(mdict.values())) != len(mdict.values()):
             return False
-        return True
+        return Tru
