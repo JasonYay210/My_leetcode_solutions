@@ -11,6 +11,6 @@ class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         mdict = Counter(arr)
         
-        if len(set(mdict.values())) != len(mdict.values())
+        if len(set(mdict.values())) != len(mdict.values()):
             return False
         return True
