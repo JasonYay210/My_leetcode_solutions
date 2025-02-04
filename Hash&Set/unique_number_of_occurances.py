@@ -12,5 +12,5 @@ class Solution:
         mdict = Counter(arr)
         
         if len(set(mdict.values())) != len(mdict.values()):
-            return False
+            return Fals
         return True
