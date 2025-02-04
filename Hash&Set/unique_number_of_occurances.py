@@ -5,9 +5,9 @@ class Solution:
     # Question: 1207
 
     # 0ms Beats 100%
-    # Time Complexity: O(n) m being the defaultdicts
-    # Space Complexity: O(n)
-    
+    # Time Complexity: O(n) going through to make dict
+    # Space Complexity: O(u) number of unique values
+
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         mdict = Counter(arr)
         
