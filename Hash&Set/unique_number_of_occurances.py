@@ -1,3 +1,6 @@
+from typing import Counter
+
+
 class Solution:
     # Question: 1207
 
