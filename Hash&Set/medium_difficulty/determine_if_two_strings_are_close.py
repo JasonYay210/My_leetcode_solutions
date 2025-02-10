@@ -3,7 +3,7 @@ class Solution:
 
     # 138ms Beats 48.16%
     # Time Complexity: O(n)  
-    # Space Complexity: O(n)
+    # Space Complexity: O(1)
 
     def closeStrings(self, word1: str, word2: str) -> bool:
         word1len = len(word1)
