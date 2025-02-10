@@ -6,39 +6,37 @@ class Solution:
     # Space Complexity: O(1)
 
     def closeStrings(self, word1: str, word2: str) -> bool:
-        word1len = len(word1)
-        word2len = len(word2)
-        if word1len != word2len:
+        len_word1 = len(word1)
+        len_word2 = len(word2)
+        
+        if len_word1 != len_word2:
             return False
-        testc = set(word1)
-        testc2 = set(word2)
-        if testc != testc2:
+        
+        unique_chars_word1 = set(word1)
+        unique_chars_word2 = set(word2)
+        
+        if unique_chars_word1 != unique_chars_word2:
             return False
 
-        mydict = {}
-        mydict2 = {}
-        for i in word1:
-            if i not in mydict:
-                mydict[i] = 1
+        freq_word1 = {}
+        freq_word2 = {}
+        
+        for char in word1:
+            if char not in freq_word1:
+                freq_word1[char] = 1
             else:
-                mydict[i] += 1
+                freq_word1[char] += 1
 
-        for i in word2:
-            if i not in mydict2:
-                mydict2[i] = 1
+        for char in word2:
+            if char not in freq_word2:
+                freq_word2[char] = 1
             else:
-                mydict2[i] += 1
-                
-        arr = []
-        for key, value in mydict.items():
-            arr.append(value)
-        arr2 = []
-        for key, value in mydict2.items():
-            arr2.append(value)
+                freq_word2[char] += 1
 
-        arr.sort()
-        arr2.sort()
+        freq_list_word1 = list(freq_word1.values())
+        freq_list_word2 = list(freq_word2.values())
 
-        if arr == arr2:
-            return True
-        return False
+        freq_list_word1.sort()
+        freq_list_word2.sort()
+
+        return freq_list_word1 == freq_list_word2
