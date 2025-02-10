@@ -1,5 +1,11 @@
 class Solution:
-    
+    # Question: 1657
+
+    # 7ms Beats 39.90%
+    # Time Complexity: O(1)  
+    # Space Complexity: O(1)
+
+    # Only using O(81) becuase the board is 9X9
     def closeStrings(self, word1: str, word2: str) -> bool:
         word1len = len(word1)
         word2len = len(word2)
