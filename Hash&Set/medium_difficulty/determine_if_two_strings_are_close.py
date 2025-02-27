@@ -13,7 +13,7 @@ class Solution:
             return False
         
         unique_chars_word1 = set(word1)
-        unique_chars_word2 = set(word2)
+        unique_chars_word2 = set(word2
         
         if unique_chars_word1 != unique_chars_word2:
             return False
